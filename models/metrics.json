@@ -1,0 +1,21 @@
+{
+  "logistic_regression": {
+    "pr_auc": 0.23448981425566434,
+    "roc_auc": 0.7507789340908665
+  },
+  "lightgbm": {
+    "pr_auc": 0.26181175675952584,
+    "roc_auc": 0.7688173185270826
+  },
+  "imbalance_comparison": {
+    "no_reweighting_pr_auc_mean": 0.22538815176279803,
+    "no_reweighting_pr_auc_std": 0.0035716020403092704,
+    "class_weight_pr_auc_mean": 0.22371594415801968,
+    "class_weight_pr_auc_std": 0.0037494317782182417,
+    "smote_pr_auc_mean": 0.21956513524164104,
+    "smote_pr_auc_std": 0.002259842947706042,
+    "no_reweighting_avg_seconds": 6.583356539408366,
+    "class_weight_avg_seconds": 9.233775536219278,
+    "smote_avg_seconds": 26.112874666849773
+  }
+}

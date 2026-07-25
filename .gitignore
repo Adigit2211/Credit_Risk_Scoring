@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# raw data is 160MB+ and belongs to Kaggle, not the repo - download instructions in README
+data/raw/*.csv
+data/raw/*.csv.zip
+
+# derived parquet, regenerate with `python3 src/data_pipeline.py`
+data/processed/*.parquet
+
+# local env files if you use one
+.env
+venv/
+.venv/

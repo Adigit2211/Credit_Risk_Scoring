@@ -1,0 +1,9 @@
+{
+  "optimal_threshold": 0.047499999999999994,
+  "total_cost_at_optimal": 605915853.6375,
+  "total_cost_at_naive_0.5": 1224607643.8875,
+  "expected_saving": 618691790.25,
+  "loss_given_default_assumption": 0.45,
+  "net_interest_margin_assumption": 0.025,
+  "test_pr_auc": 0.26181175675952584
+}

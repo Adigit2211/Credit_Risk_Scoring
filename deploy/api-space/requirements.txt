@@ -1,0 +1,15 @@
+# API Space requirements - deliberately minimal. This does NOT include
+# imbalanced-learn, matplotlib, or streamlit - those belong to the training
+# pipeline and the frontend respectively, neither of which run in this
+# container. Keeping this lean matters in practice: HF Spaces' free tier
+# has limited build resources, and every unnecessary package is build time
+# and image size you don't get back.
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+numpy
+scikit-learn
+lightgbm
+shap
+joblib

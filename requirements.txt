@@ -1,0 +1,24 @@
+# core data / ML
+pandas
+numpy
+scikit-learn
+lightgbm
+imbalanced-learn
+pyarrow
+joblib
+
+# explainability
+shap
+
+# plotting (for reports/ notebooks)
+matplotlib
+
+# stage 3 onward
+fastapi
+uvicorn[standard]
+pydantic
+streamlit
+requests
+
+# testing
+httpx
