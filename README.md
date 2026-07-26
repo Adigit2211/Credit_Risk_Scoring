@@ -79,7 +79,6 @@ downstream — at threshold selection, where it actually has business meaning
 
 ## Business memo: what threshold should we actually use?
 
-*(the one-page version — for stakeholders who want the conclusion, not the derivation)*
 
 **The question.** A model outputs a probability. Turning that into an
 approve/reject decision requires picking a threshold — and 0.5 is not a
@@ -108,7 +107,7 @@ minimizes total expected cost across the test set.
 threshold instead of the conventional one — a bigger lever than most of the
 modeling choices upstream of it.
 
-**The uncomfortable part, stated plainly.** A pure cost-minimizing policy
+A pure cost-minimizing policy
 here rejects more than half of all applicants. That's because, under these
 assumptions, a missed default costs roughly **18x** more than a wrongly
 rejected good applicant (45% vs 2.5% of the loan amount) — so the
